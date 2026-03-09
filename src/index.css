@@ -1,0 +1,46 @@
+@import "./styles/variables.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  /* Utility classes for modern light UI */
+  .glass {
+    @apply bg-white/80 backdrop-blur-lg border border-gray-200 shadow-sm;
+  }
+
+  .glass-card {
+    @apply glass rounded-xl p-6 hover:shadow-md transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply px-4 py-2 rounded-lg bg-red-500 hover:bg-red-600 text-white font-medium transition-all shadow-lg shadow-red-500/30 active:scale-95 cursor-pointer flex items-center gap-2 justify-center;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200 text-gray-900 font-medium transition-all active:scale-95 cursor-pointer flex items-center gap-2 justify-center;
+  }
+
+  .input-field {
+    @apply w-full bg-white border border-gray-200 rounded-lg px-4 py-3 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500/50 transition-all shadow-sm;
+  }
+
+  /* Custom Animations */
+  @keyframes fade-in-up {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.5s ease-out forwards;
+  }
+}

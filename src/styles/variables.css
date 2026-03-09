@@ -1,0 +1,35 @@
+:root {
+  /* Brand Colors - Vibrant Red & Light Gray */
+  --color-primary: 239 68 68;
+  /* Red 500 */
+  --color-primary-foreground: 255 255 255;
+
+  --color-secondary: 243 244 246;
+  /* Gray 100 */
+  --color-secondary-foreground: 17 24 39;
+  /* Gray 900 */
+
+  --color-accent: 254 226 226;
+  /* Red 100 */
+  --color-accent-foreground: 153 27 27;
+  /* Red 800 */
+
+  /* Backgrounds - Clean Light Mode */
+  --background: 255 255 255;
+  /* White */
+  --foreground: 31 41 55;
+  /* Gray 800 */
+
+  /* Status Colors - Refined to comply with Red/Grey scheme */
+  --destructive: 220 38 38;
+  /* Red 600 */
+  --destructive-foreground: 255 255 255;
+
+  --success: 153 27 27;
+  /* Deep Red (using red as success in this restricted palette) */
+  --warning: 75 85 99;
+  /* Slate Grey */
+
+  /* Radius */
+  --radius: 0.5rem;
+}

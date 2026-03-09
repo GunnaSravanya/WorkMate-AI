@@ -1,0 +1,14 @@
+{
+    "Random Forest (Multi-Label)": {
+        "accuracy": 0.06,
+        "precision": 0.25694790897938274,
+        "recall": 0.17820167714477703,
+        "f1_score": 0.2036117721692587
+    },
+    "Gradient Boosting (Multi-Label)": {
+        "accuracy": 0.06,
+        "precision": 0.2789292255081729,
+        "recall": 0.17563502141333517,
+        "f1_score": 0.20571555202258165
+    }
+}
